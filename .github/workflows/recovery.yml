@@ -28,7 +28,6 @@ jobs:
         ls
         pwd
         wget ${{github.event.inputs.RECOVERY_URL }} -O r.img
-cp r.img recovery.img
 
     - name: Patch Process-1
       run: |
